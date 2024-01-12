@@ -51,13 +51,24 @@ If random feature is On, the new sound will be generated at each trigger CV sign
 
 You can switch any knob to 0 value by turning it clockwise till the click.
 
-| Parameter name | Description | Normal mode | Random mode | | --- | --- | --- | --- | | WAVE | WaveTable select | Select WaveTable from 0 to max available (MAX\_WT) | Limit Random Wavetable. 0=ALL | | OBER | Obertone freq | Set Obertone Freq | Limit Obertone Freq. 0=ALL | | GLITCH | FM intensity | Set FM intensity | Limit FM intensity. 0=ALL | | MOD | Modulation Rate | Set wah-wah effect | Limit Mod ratio. 0=ALL |
+| Parameter name | Description | Normal mode | Random mode |
+| --- | --- | --- | --- |
+| WAVE | WaveTable select | Select WaveTable from 0 to max available (MAX\_WT) | Limit Random Wavetable. 0=ALL |
+| OBER | Obertone freq | Set Obertone Freq | Limit Obertone Freq. 0=ALL |
+| GLITCH | FM intensity | Set FM intensity | Limit FM intensity. 0=ALL |
+| MOD | Modulation Rate | Set wah-wah effect | Limit Mod ratio. 0=ALL |
 
 ## CVs
 
 CVs have higher priority than knobs
 
-| Parameter name | Description | Normal mode | Random mode | | --- | --- | --- | --- | | TRIG | Trigger CV | Make a sound | Generate a random sound | | V/OCT | Pitch CV | Set pitch (will be quantized to a note) | Set pitch. 0 or no signal = Random pitch | | GLCH | FM intensity | Set FM intensity | - | | OBER | Obertone freq | Set obertone freq | - | | MOD | Modulation Rate | Set wah-wah effect | - |
+| Parameter name | Description | Normal mode | Random mode |
+| --- | --- | --- | --- |
+| TRIG | Trigger CV | Make a sound | Generate a random sound |
+| V/OCT | Pitch CV | Set pitch (will be quantized to a note) | Set pitch. 0 or no signal = Random pitch |
+| GLCH | FM intensity | Set FM intensity | - |
+| OBER | Obertone freq | Set obertone freq | - |
+| MOD | Modulation Rate | Set wah-wah effect | - |
 
 ## Notes
 
